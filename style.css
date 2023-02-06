@@ -181,6 +181,8 @@ h3{
   }
 
 .box-featured1:hover{
+  transform: scale(1.1);
+  transition: all 0.2s;
   box-shadow: 10px 10px 10px #4c4974;
 }
 
@@ -234,7 +236,9 @@ color: #353069;
   flex-direction: column;
 }
 
-.box-toys:hover{
+.box-toys:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
   box-shadow: 10px 10px 10px #4c4974;
 }
 

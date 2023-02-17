@@ -276,7 +276,7 @@ color: #353069;
 .footer{
   /* margin-top: 150px; */
   width: 100%;
-  padding: 100px 15%;
+  padding: 35px 10%;
   background-color: #efefef;
   color: #353069;
   display: flex;
@@ -301,9 +301,9 @@ color: #353069;
   cursor: pointer;
 }
 form input{
-  width: 400px;
-  height: 45px;
-  border-radius: 4px;
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -318,4 +318,15 @@ form button{
   padding: 10px 30px;
   font-size: 15px;
   cursor: pointer;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons i{
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
